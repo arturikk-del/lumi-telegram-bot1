@@ -7,8 +7,8 @@ services:
     startCommand: "python bot.py"
     envVars:
       - key: YANDEX_API_KEY
-        sync: false
+        sync: true
       - key: CATALOG_ID
-        sync: false
+        sync: true
       - key: TELEGRAM_TOKEN
-        sync: false
+        sync: true
